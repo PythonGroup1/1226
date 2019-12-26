@@ -1,2 +1,4 @@
 # 1226
-first test.
+first test
+
+I love python.
