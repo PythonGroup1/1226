@@ -27,7 +27,7 @@ out_classes = 10#输出层，10类手写数字的结果
 
 # A random value generator to initialize weights.
 # 正太分布的数据
-random_normal = tf.initializers.random_normal()
+random_normal = tf.initializers.Random_normal()
 
 weights = {
     'h1': tf.Variable(random_normal([num_features, n_hidden_1])),
